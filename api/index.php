@@ -13,7 +13,7 @@ switch ($request_uri[0]) {
         require "products.php";
         break;
     // About page
-    case "/donut-shop/api/locations":
+    case "/store/api/locations":
         require "locations.php";
         break;
     // Everything else
@@ -22,3 +22,4 @@ switch ($request_uri[0]) {
         //require "";
         break;
 }
+?>

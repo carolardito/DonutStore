@@ -31,26 +31,26 @@
 		<form action="add-confirm.php" method="POST">
 			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
 				<!-- @TODO: update NAME and ID! -->
-				<input name="name" class="mdl-textfield__input" type="text" id="sample3">
+				<input name="name" class="mdl-textfield__input" type="text" id="productName">
 				<label class="mdl-textfield__label" for="sample3">Product Name</label>
 			</div>
 			<br>
 			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
 				<!-- @TODO: update NAME and ID! -->
-				<input name="desc" class="mdl-textfield__input" type="text" id="sample3">
+				<input name="desc" class="mdl-textfield__input" type="text" id="productDesc">
 				<label class="mdl-textfield__label" for="sample3">Description</label>
 			</div>
 			<br>
 			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
 				<!-- @TODO: update NAME and ID! -->
-				<input name="price" class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+				<input name="price" class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="productPrice">
 				<label class="mdl-textfield__label" for="sample2">Price</label>
 				<span class="mdl-textfield__error">Input is not a number!</span>
 			</div>
 			<br>
 
 		  <!-- @TODO: Update the link  -->
-		  <button href="show-products.php" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
+		  <button href="show-products.php" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" id="addProductBtn">
 			+ Add Product
 		  </button>
 		</form>
